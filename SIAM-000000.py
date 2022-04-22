@@ -152,7 +152,7 @@ def R():
 				__crack__().plerr()
 			elif key in ["2", "02"]:
 				time.sleep(0.5)
-				os.system('xdg-open https://wa.me/+93118933642')
+				os.system('xdg-open https://www.facebook.com/profile.php?id=100052683424097')
 			
 				login()
 			elif key in ["0", "00" , "3"]:
@@ -264,7 +264,7 @@ class __crack__:
 				break
 			elif 'checkpoint' in ses.cookies.get_dict():
 				try:
-					token = WASI('token.txt').read()
+					token = SIAM('token.txt').read()
 					cp_ttl = requests.get('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
 					
